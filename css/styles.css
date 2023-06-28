@@ -48,6 +48,7 @@ body {
   padding-right: 15px;
 }
 .header-container {
+  align-items: center;
   display: flex;
   background: #ffffff;
 }
@@ -66,7 +67,6 @@ body {
   color: var(--iris-color);
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .link {
   text-decoration: none;
@@ -86,7 +86,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 .header-list-address {
   display: flex;
@@ -128,6 +127,9 @@ address {
 }
 .footer-logo {
   color: var(--cloud-color);
+}
+.footer-slogan {
+  margin-bottom: 17.5px;
 }
 .footer-text {
   line-height: 1.5;
